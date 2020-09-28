@@ -1,0 +1,143 @@
+h1 {
+	margin-left: 26%;
+	margin-top: 2%;
+	font-weight: 700;
+	font-family: Arial;
+	font-size: 165%;
+	transition: 1s;
+}
+h1:hover {
+	color: orangeRed;
+	transition: 1s;
+}
+h2 {
+	margin: 1%;
+	margin-left: 0;
+	font-weight: 100;
+	transition: 1s;
+}
+h2:hover {
+	color: orangeRed;
+	transition: 1s;
+}
+ul {
+	margin: 0px;
+	margin-top: -3.5%;
+	margin-left: 25%;
+	padding: 0px;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+li {
+	font-size: 105%;
+	color: grey;
+	margin: 1%;
+	transition: 1s;
+}
+a {
+	transition: 1s;
+	text-decoration: none;
+	color: grey;
+}
+a:hover {
+	transition: 2s;
+	color: orangeRed;
+}
+.intro {
+	display: block;
+	width: 100%;
+   height: 155px;
+   padding-top: 117px;
+	background: url(assets/head-bg.jpg) #F7F7F7 center top;
+	color: #E85F37;
+}
+#ava {
+	border-radius: 100px;
+	margin-left: 27%;
+}
+#IntroText {
+	color: #E85F37;
+   font-family: "Open Sans", sans-serif;
+   font-size: 13px;
+   letter-spacing: 2px;
+   font-weight: 700;
+   text-transform: uppercase;
+   padding: 10px 25px;
+   background-color: #FFF;
+   border: 1px solid #DC5227;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   box-shadow: inset 0 -3px 0 #ffcfbc;
+   position: relative;
+	-webkit-animation: smooth-entry-btn 1s;
+	-moz-animation: smooth-entry-btn 1s;
+	animation: smooth-entry-btn 1s;
+	width: 50%;
+	margin-left: 32%;
+	margin-top: -3%;
+}
+.content {
+	margin-left: 27%;
+	margin-top: 4%;
+}
+.about {
+	color: grey;
+	font-size: 110%;
+}
+.readmore {
+	color: orangeRed;
+	border: 1px solid orangeRed;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	border-radius: 11px;
+	background-color: white;
+	font-weight: 700;
+	transition: 1s;
+	position: relative;
+	display: block;
+}
+.readmore:hover {
+	background-color: orangeRed;
+	color: white;
+}
+.tags {
+	font-size: 80%;
+	font-family: sans-serif;
+	margin-bottom: 5%;
+}
+.coms {
+	font-weight: 600;
+}
+#post {
+	float: right;
+	margin-top: -15%;
+	margin-right: 35%;
+}
+#previous {
+	height: 35px;
+	width: 150px;
+	background-color: black;
+	color: white;
+	text-weight: 5500;
+	border-radius: 10px;
+	font-size: 90%;
+	border: 0px;
+	transition: 2s;
+}
+#previous:hover {
+	background-color: #696969;
+	color: orangeRed;
+	transition: 2s;
+}
+h3 {
+	text-align: center;
+	font-size: 200%;
+	color: grey;
+	margin-top: 90px;
+}
